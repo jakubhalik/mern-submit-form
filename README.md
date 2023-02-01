@@ -2,6 +2,46 @@
 MERN submit form where you can type data in an input and submit them from localhost:3000 on the Frontend to a MongoDB database and the server on localhost:27017
 <h2><a href="https://mernsubmitform.github.io/">The website</a></h2><p>This is here just for the look on the visual side, it will throw errors, because code is configured to localhosts</p>
 
+The app is built using MongoDB, Express.js, React.js, and Node.js (MERN stack).
+
+In the "models" folder, there is a file named "SubmitForm.js" which contains the Mongoose schema for the submit form data. The schema includes fields for the user's name, email, enquiry, and date.
+
+In the "routes" folder, there is a file named "submitForm.js" which contains the Express routes for the app. The file exports two routes: one for getting all submit form data and one for saving new submit form data.
+
+The GET route is used to retrieve all the submit form data from the MongoDB database. It uses the Mongoose "find()" method to query the database and return all the documents in the "submitForm" collection.
+
+The POST route is used to save new submit form data to the MongoDB database. It uses the Mongoose "save()" method to insert the new data as a document in the "submitForm" collection.
+
+In the "client" folder, there is a React.js app which allows user to submit form data. It sends a post request to the server with the form data as the request body.
+
+The server listens to the post request, and save the form data to the MongoDB and returns a success message.
+
+The client then displays the success message to the user.
+
+The app uses axios library for making HTTP requests.
+
+The app uses Mongoose, a MongoDB object modelling tool, to interact with the MongoDB database.
+
+The app uses morgan, a HTTP request logger middleware for node.js, for logging the HTTP requests.
+
+The app uses "cors" middleware for handling cross-origin resource sharing.
+
+The app uses "body-parser" middleware for parsing incoming request bodies in a middleware before your handlers, available under the req.body property.
+
+The app uses "path" module, a built-in Node.js module, for handling file paths.
+
+The app uses "webpack" to bundle all the client side code.
+
+The app uses "node-sass" and "sass-loader" for handling sass files.
+
+The app uses "react-scripts" for creating a react app.
+
+The client folder contains a "package.json" file, which lists all the dependencies for the React app.
+
+The server folder contains a "package.json" file, which lists all the dependencies for the server-side app.
+
+To run the app, first start the MongoDB server, then start the Node.js server, and finally start the React app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
