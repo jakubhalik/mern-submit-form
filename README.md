@@ -30,6 +30,15 @@ In simple words -> submit something into localhosht:3000, data will be send to t
 // -> put your own link in here, and ur own username and password + u gotta change the url on line 16
 const MONGODB_URI = 'mongodb+srv://<username>:<password>@mern-submit-form-db.dvctpxi.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/jakubhalik-mern-submit-form-db'
+<h2>And run all of these obviously:</h2>
+npm install sass-loader
+npm install node-sass
+npm install axios
+npm install express
+npm install mongoose
+npm install morgan
+npm install path
+npm install webpack
 
 # Getting Started with Create React App
 
