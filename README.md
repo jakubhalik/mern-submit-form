@@ -22,13 +22,14 @@ The app uses "react-scripts" for creating a react app.
 The client folder contains a "package.json" file, which lists all the dependencies for the React app(didn't upload this to github, can send ZIP of the entire proj folder).
 The server folder contains a "package.json" file, which lists all the dependencies for the server-side app(didn't upload this to github, can send ZIP of the entire proj folder).
 To run the app, first start the MongoDB server, then start the Node.js server, and finally start the React app.
+<br/>
 In simple words -> submit something into localhosht:3000, data will be send to the localhost:27017
-<h2>To run this on your local machine just change this mongo db info in server.js to your own database information:
+<h2>To run this on your local machine just change this mongo db info in server.js to your own database information:</h2>
 // <username> and <password> have to be changed to an actual mongodb username and password, I won't give my own out so people
 // don't just have acess to my database to go and change things there, but you can simply create your own mongodb database->
 // -> put your own link in here, and ur own username and password + u gotta change the url on line 16
 const MONGODB_URI = 'mongodb+srv://<username>:<password>@mern-submit-form-db.dvctpxi.mongodb.net/?retryWrites=true&w=majority';
-mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/jakubhalik-mern-submit-form-db'</h2>
+mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/jakubhalik-mern-submit-form-db'
 
 # Getting Started with Create React App
 
