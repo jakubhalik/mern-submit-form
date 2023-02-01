@@ -1,6 +1,6 @@
 # mern-submit-form
 MERN submit form where you can type data in an input and submit them from localhost:3000 on the Frontend to a MongoDB database and the server on localhost:27017
-<a href="https://mernsubmitform.github.io/"><h4>The website</h4></a><br/><p>This is here just for the look on the visual side, it will throw errors, because code is configured to localhosts</p>
+<h2><a href="https://mernsubmitform.github.io/">The website</a></h2><p>This is here just for the look on the visual side, it will throw errors, because code is configured to localhosts</p>
 
 # Getting Started with Create React App
 
