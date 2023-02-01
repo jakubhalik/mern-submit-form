@@ -66,11 +66,21 @@ function App() {
 
   return (
     <div>
-      <form onSubmit={submit}>
-          <input type="text" name="name" placeholder="Name" value={state.name} onChange={handleChange} />
-          <input type="email" name="email" placeholder="Email" value={state.email} onChange={handleChange} />
-          <input type="text" name="enquiry" placeholder="Enquiry" value={state.enquiry} onChange={handleChange} />
-          <button>Submit</button>
+      <form className="material-form" onSubmit={submit}>
+        <div className="material-form__container">
+          <input className="material-form__input" type="text" name="name" placeholder="Name" value={state.name} onChange={handleChange} />
+          <div class="material-form__focus-animation"></div>
+        </div>
+        <div className="material-form__container">
+          <input className="material-form__input" type="email" name="email" placeholder="Email" value={state.email} onChange={handleChange} />
+          <div class="material-form__focus-animation"></div>
+          <p class="material-form__error">Please enter valid email address</p>
+        </div>
+        <div className="material-form__container">
+          <input className="material-form__input" type="text" name="enquiry" placeholder="Enquiry" value={state.enquiry} onChange={handleChange} />
+          <div class="material-form__focus-animation"></div>
+        </div>
+          <button className="material-form__button">Submit</button>
       </form>
     </div>
   );
