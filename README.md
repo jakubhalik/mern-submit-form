@@ -31,13 +31,13 @@ In simple words -> submit something into localhosht:3000, data will be send to t
 const MONGODB_URI = 'mongodb+srv://<username>:<password>@mern-submit-form-db.dvctpxi.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/jakubhalik-mern-submit-form-db'
 <h2>And run all of these obviously:</h2>
-npm install sass-loader
-npm install node-sass
-npm install axios
-npm install express
-npm install mongoose
-npm install morgan
-npm install path
+npm install sass-loader<br/>
+npm install node-sass<br/>
+npm install axios<br/>
+npm install express<br/>
+npm install mongoose<br/>
+npm install morgan<br/>
+npm install path<br/>
 npm install webpack
 
 # Getting Started with Create React App
