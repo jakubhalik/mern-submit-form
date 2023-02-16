@@ -1,0 +1,37 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\jakub\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\jakub\AppData\Local\Microsoft\WindowsApps;C:\Users\jakub\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jakub\AppData\Local\GitHubDesktop\bin;C:\Users\jakub\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\jakub\GitHub\react-submit-form-database\node_modules\node-sass\vendor\win32-x64-108\binding.node'
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "node-sass": "^8.0.0",
+      "sass-loader": "^13.2.0"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^6.8.4",
+      "morgan": "^1.10.0",
+      "path": "^0.12.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
